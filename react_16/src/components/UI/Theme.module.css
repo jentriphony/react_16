@@ -1,0 +1,26 @@
+.theme {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: black;
+  animation: theme 8s linear infinite;
+}
+
+.theme:hover,
+.theme:active {
+  cursor: pointer;
+  animation: theme-hover 4s linear infinite
+}
+
+@keyframes theme {
+  0% { box-shadow: 0 0 0.4rem 0.4rem black; }
+  50% { box-shadow: 0 0 0.4rem 0.4rem white; }
+  100% { box-shadow: 0 0 0.4rem 0.4rem black; }
+}
+
+@keyframes theme-hover {
+  0% { box-shadow: 0 0 0.8rem 0.8rem black; }
+  50% { box-shadow: 0 0 0.8rem 0.8rem white; }
+  100% { box-shadow: 0 0 0.8rem 0.8rem black; }
+}
