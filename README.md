@@ -1,2 +1,2 @@
 # react_16
-interaction_16_router \ncomment\n this repository contains interface for logging into user profile
+interaction_16_router \ncomment\n this repository contains interface for adding items to list
